@@ -1,5 +1,9 @@
 terraform {
-    backend "s3" {
+    backend "remote" {
+        organization = "terraform-demo-actions"
+        workspaces {
+            name = "terraform-demo-actions"
+    }
   }
 }
 
