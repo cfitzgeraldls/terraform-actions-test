@@ -1,8 +1,8 @@
 terraform {
     backend "remote" {
-        organization = "terraform-demo-actions"
+        organization = "demo-terraform-actions"
         workspaces {
-            name = "terraform-demo-actions"
+            name = "terraform-actions-test"
     }
   }
 }
